@@ -20,23 +20,23 @@ export default function AddMacro() {
               <tr>
                 <td><Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="text" placeholder="Enter food name" />
+        <Form.Control type="text"/>
       </Form.Group></Form></td>
       <td><Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="text" placeholder="Enter food name" />
+        <Form.Control type="text"/>
       </Form.Group></Form></td>
       <td><Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="text" placeholder="Enter food name" />
+        <Form.Control type="text"/>
       </Form.Group></Form></td>
       <td><Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="text" placeholder="Enter food name" />
+        <Form.Control type="text"/>
       </Form.Group></Form></td>
       <td><Form>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Control type="text" placeholder="Enter food name" />
+        <Form.Control type="text"/>
       </Form.Group></Form></td>
       <td><Button variant="primary" type="submit">
         Submit

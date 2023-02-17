@@ -2,5 +2,24 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "react-bootstrap": "^2.7.0"
-  }
+  },
+  "name": "nu-tracker-frontend",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricLGDev/Nu-Tracker-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricLGDev/Nu-Tracker-Frontend/issues"
+  },
+  "homepage": "https://github.com/EricLGDev/Nu-Tracker-Frontend#readme"
 }

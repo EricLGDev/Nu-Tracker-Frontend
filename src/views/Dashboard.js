@@ -35,7 +35,7 @@ const Dashboard = () => {
 
   return (
     <div className='bg-color'>
-        <div>
+        <div id='linechart-container' className='padding-top-5vh'>
             <h2>Calorie Intake History</h2>
             <div id='linechart'>
               <LineChart 

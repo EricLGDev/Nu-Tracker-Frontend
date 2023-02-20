@@ -10,7 +10,7 @@ const CalorieIntakeHistory = () => {
   useEffect(() => {
     const userId = localStorage.getItem('userId');
     getEntries(userId);
-  });
+  }, []);
 
   useEffect(() => {
     setIsLoading(false);

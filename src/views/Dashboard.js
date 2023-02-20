@@ -20,7 +20,7 @@ const Dashboard = () => {
   useEffect(() => {
     const userId = localStorage.getItem('userId');
     getEntries(userId);
-  });
+  }, [] );
 
   useEffect(() => {
     console.log('Entries changed:', entries)

@@ -63,6 +63,7 @@ https://github.com/EricLGDev/Nu-Tracker-Backend
 
 # Bugs!
 
+- The user is somehow navigated to the Dashboard, which causes the Dashboard to appear empty, work around is to logout and then log in with the new account.
 - useEffect dependency error for the Dashboard! Requires getEntries to be part of the dependency array or wants the array removed entirely. Satisfying either will cause an infinite error loop as the app tries to continuely refresh the user's entries.
 - Mobile views S to L are being formatted properly for the time being. Navbar doesn't adjust to screen size length. History log and Graph over-extend.
 - Sometimes the response to get the required data from the backend server is too slow for the user's Dashboard. 95% of the time the request is just fine.

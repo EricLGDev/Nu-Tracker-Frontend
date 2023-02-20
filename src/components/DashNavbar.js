@@ -24,7 +24,7 @@ const DashNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" className='navbar' style={{padding: "20px"}}>
       <Container>
-      <Navbar.Brand href="/" className='small-caps-font24'>Nu-Tracker</Navbar.Brand>
+      <Navbar.Brand className='small-caps-font24'>Nu-Tracker</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className='me-auto'>

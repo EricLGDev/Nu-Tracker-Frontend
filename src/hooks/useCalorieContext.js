@@ -8,7 +8,7 @@ export const useCalorieContext = () => {
   const getEntries = async (userId) => {
     try {
       dispatch({ type: 'SET_LOADING' });
-      const response = await axios.get(`http://localhost:5000/diary/${userId}`, {
+      const response = await axios.get(`https://nu-tracker-api.onrender.com/diary/${userId}`, {
         headers: { Authorization: `Bearer ${localStorage.getItem('access_token')}` }
       });
       const data = response.data;
@@ -21,7 +21,7 @@ export const useCalorieContext = () => {
   const addEntry = (userId, entry) => {
     dispatch({ type: 'SET_LOADING' });
 
-    axios.post(`http://localhost:5000/diary`, entry, {
+    axios.post(`https://nu-tracker-api.onrender.com/diary`, entry, {
       headers: { Authorization: `Bearer ${localStorage.getItem('access_token')}` },
     })
       .then((response) => {
@@ -35,7 +35,7 @@ export const useCalorieContext = () => {
   const deleteEntry = (userId, entryId) => {
     dispatch({ type: 'SET_LOADING' });
 
-    axios.delete(`http://localhost:5000/diary/${entryId}`, {
+    axios.delete(`https://nu-tracker-api.onrender.com/diary/${entryId}`, {
       headers: { Authorization: `Bearer ${localStorage.getItem('access_token')}` },
     })
       .then(() => {

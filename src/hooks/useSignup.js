@@ -14,7 +14,7 @@ export const useSignup = () => {
     setErrorMessage(null);
   
     try {
-      const res = await axios.post('http://localhost:5000/signup', formValues);
+      const res = await axios.post('https://nu-tracker-api.onrender.com/signup', formValues);
       setUserData(res.data);
     } catch (error) {
       setErrorMessage(error.message);

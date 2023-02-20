@@ -5,7 +5,6 @@ import Signup from "./views/Signup";
 import { useUserContext } from './hooks/useUserContext';
 import Dashboard from "./views/Dashboard";
 import AddEntry from "./components/AddEntry";
-// import ViewEntry from "./components/ViewEntry";
 import DashNavbar from './components/DashNavbar';
 import "./assets/style/background.css"
 
@@ -36,9 +35,6 @@ function App() {
           {user && (
             <Route path="/add-entry" element={<AddEntry />} />
           )}
-          {/* {user && (
-            <Route path="/view-entry" element={<ViewEntry />} />
-          )} */}
         </Routes>
       </Router>
     </div>

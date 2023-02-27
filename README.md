@@ -3,7 +3,7 @@
 
 Creating an app in order for an individual to track their intake and monitor their journey. The goal is for users to set goals for themselves and have healthier lifestyles. This app helps users accomplish their goals by visualizing their nutritional intake. Each user is displayed their own unique data that they can keep track of and make new entries when needed.
 
-Check out our current build here:
+Take a look at our bugs below and check out our current build here:
 https://nu-tracker.onrender.com
 
 ![Nu_Tracker_home](https://user-images.githubusercontent.com/105254750/219965103-c3357c4f-c2a4-440c-9d19-8e2a746e9d31.png)
